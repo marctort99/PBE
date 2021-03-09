@@ -4,7 +4,7 @@ import sys
 
 def main():
   # Main program block
-  lcd = i2c_driver.lcd()
+  lcd = lcddriver.lcd()
   while True:
     print("Escribe un texto por líneas de 20 caracteres y pulsa Enter seguido de Ctrl+D")
     msg = sys.stdin.readlines()
