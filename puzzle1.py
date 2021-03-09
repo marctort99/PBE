@@ -1,5 +1,5 @@
 import i2c_lib
-import i2c_driver
+import lcddriver
 import sys 
 
 def main():
